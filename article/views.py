@@ -46,7 +46,7 @@ def searchtag(request, tag):
     except Article.DoesNotExist:
         raise Http404
 
-    return render(request, 'tags.html', {'post_list': post_list, 'error': False})
+    return render(request, 'tag.html', {'post_list': post_list, 'error': False})
 
 
 def aboutme(request):
