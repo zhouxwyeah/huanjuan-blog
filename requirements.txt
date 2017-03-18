@@ -1,3 +1,6 @@
+uwsgi
 django==1.8
 mysqlclient
 markdown
+bootstrap-admin
+mysqlclient
